@@ -1,0 +1,19 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+#logo:hover{
+    cursor: pointer;
+    color: lightpink;
+}
+
+#nav-options > *{
+    font-size: 2.5rem;
+    padding: 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
