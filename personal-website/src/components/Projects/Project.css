@@ -1,0 +1,18 @@
+.project {
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.project:hover{
+    background-color: lightblue;
+}
+
+.project-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-desc {
+
+}

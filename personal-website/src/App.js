@@ -3,6 +3,7 @@ import './assests/css/fonts.css';
 import NavBar from './components/NavBar/NavBar';
 import Education from './components/Education/Education';
 import ExperienceSection from './components/Experience/ExperienceSection';
+import ProjectsSection from './components/Projects/ProjectsSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar></NavBar>
       <Education/>
       <ExperienceSection/>
+      <ProjectsSection/>
     </div>
   );
 }

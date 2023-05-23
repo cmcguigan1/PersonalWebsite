@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Experience from './Experience';
 import './ExperienceSection.css';
 import AmplifyLogo from '../../assests/images/AmplifyLogo.webp';
+import WDSLogo from '../../assests/images/WDS.jpg';
 
 export default function ExperienceSection(){
   const [isToggled, setIsToggled] = useState(false);
@@ -16,12 +17,12 @@ export default function ExperienceSection(){
       through all the phases of the software development process, 
       from breaking down the problem statement, researching the problem,
       brainstoring potential solutions, designing, and implementing.`,
-      link: 'https://jobs.rbc.com/ca/en/amplify'
+      link: ''
     }
   ]);
   const [extraCurr, setExtraCurr] = useState([
     {
-      imgURL: "", 
+      imgURL: {WDSLogo}, 
       title: "Developer Team Lead, Western Developers Society", 
       date: "Oct 2022 - April 2023", 
       description: `Team Lead of a group of 8 developers for a club
