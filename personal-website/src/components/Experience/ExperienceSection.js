@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Experience from './Experience';
 import './ExperienceSection.css';
-import AmplifyLogo from '../../assests/images/AmplifyLogo.webp';
+import RBC from '../../assests/images/RBC_icon.jpg';
 import WDSLogo from '../../assests/images/WDS.jpg';
 
 export default function ExperienceSection(){
   const [isToggled, setIsToggled] = useState(false);
   const [professional, setProfessional] = useState([
     {
-      imgURL: AmplifyLogo, 
+      imgURL: RBC, 
       title: "Developer, RBC Amplify", 
       date: "May 2023 - August 2023", 
       description: `RBC's Amplify program is a summer internship 
