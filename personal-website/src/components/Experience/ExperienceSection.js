@@ -3,6 +3,7 @@ import Experience from './Experience';
 import './ExperienceSection.css';
 import RBC from '../../assests/images/RBC_icon.jpg';
 import WDSLogo from '../../assests/images/WDS.jpg';
+import Bell from '../../assests/images/Bell.png';
 
 export default function ExperienceSection(){
   const [isToggled, setIsToggled] = useState(false);
@@ -17,6 +18,15 @@ export default function ExperienceSection(){
       through all the phases of the software development process, 
       from breaking down the problem statement, researching the problem,
       brainstoring potential solutions, designing, and implementing.`,
+      link: ''
+    },
+    {
+      imgURL: Bell, 
+      title: "Access Network Engineering Student", 
+      date: "May 2022 - December 2022", 
+      description: `Co-Lead Developer of Cobra, a web app for Bell's Contractor Management Team. 
+      Lead the development of a Django web app used by Bell's internal contract management team 
+      to manage vendor contracts, contract SKUs, tracking contractor's access to Bell sites and more`,
       link: ''
     }
   ]);

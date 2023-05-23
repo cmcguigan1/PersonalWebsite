@@ -5,7 +5,7 @@
 }
 .project:hover{
     cursor: pointer;
-    background-color: lightblue;
+    background-color: rgb(251, 251, 148);
 }
 
 .project-name {
