@@ -1,0 +1,19 @@
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footer > * > a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer > * {
+    background-color: #72C2C7;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+}
+#footer > *:hover{
+    cursor: pointer;
+}

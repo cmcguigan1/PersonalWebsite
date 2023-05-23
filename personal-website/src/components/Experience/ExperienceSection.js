@@ -8,7 +8,7 @@ export default function ExperienceSection(){
   const [isToggled, setIsToggled] = useState(false);
   const [professional, setProfessional] = useState([
     {
-      imgURL: {AmplifyLogo}, 
+      imgURL: AmplifyLogo, 
       title: "Developer, RBC Amplify", 
       date: "May 2023 - August 2023", 
       description: `RBC's Amplify program is a summer internship 
@@ -22,7 +22,7 @@ export default function ExperienceSection(){
   ]);
   const [extraCurr, setExtraCurr] = useState([
     {
-      imgURL: {WDSLogo}, 
+      imgURL: WDSLogo, 
       title: "Developer Team Lead, Western Developers Society", 
       date: "Oct 2022 - April 2023", 
       description: `Team Lead of a group of 8 developers for a club

@@ -4,6 +4,7 @@
     padding: 1rem;
 }
 .project:hover{
+    cursor: pointer;
     background-color: lightblue;
 }
 
