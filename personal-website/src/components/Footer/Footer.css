@@ -18,15 +18,18 @@
     cursor: pointer;
 }
 
-.footer-img {
-    width: 1.5rem;
-    background-color: #72C2C7;
-}
-
 .footer-logo-container {
     margin: auto;
+    
 }
 
+.material-symbols-outlined {
+    font-size: 3rem !important;
+}
+.footer-img {
+    width: 3rem;
+    background-color: #72C2C7;
+}
 .footer-git-img {
     width: 3rem;
 }

@@ -14,7 +14,7 @@ export default function Footer(){
                 <a href="https://www.linkedin.com/in/claire-mcguigan/" target="_blank"><img className="footer-img" src={linkedIn}/></a>
             </div>
             <div className='footer-logo-container'>
-                <a href="" target="_blank"><img className="footer-img" src={github}/></a>
+                <a href="https://github.com/cmcguigan1" target="_blank"><img className="footer-git-img" src={github}/></a>
             </div>
         </div>
     );
