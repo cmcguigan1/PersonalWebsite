@@ -17,3 +17,16 @@
 #footer > *:hover{
     cursor: pointer;
 }
+
+.footer-img {
+    width: 1.5rem;
+    background-color: #72C2C7;
+}
+
+.footer-logo-container {
+    margin: auto;
+}
+
+.footer-git-img {
+    width: 3rem;
+}
