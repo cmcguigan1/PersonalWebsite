@@ -10,8 +10,8 @@
 }
 .experience:hover {
     cursor: pointer;
-    border-left: 1rem solid black;
-    border-bottom: 1rem solid black;
+    border-left: 0.60rem solid black;
+    border-bottom: 0.60rem solid black;
     transition: border 0.3s;
 }
 

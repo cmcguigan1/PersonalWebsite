@@ -6,6 +6,9 @@
 .project:hover{
     cursor: pointer;
     background-color: rgb(251, 251, 148);
+    border-left: 0.25rem solid black;
+    border-bottom: 0.25rem solid black;
+    transition: border 0.3s;
 }
 
 .project-name {
