@@ -13,7 +13,7 @@ export default function Education(){
                 <div className="education-subheading">BESc Software Engineering</div>
                 <div className="education-description">
                     <div><span className="education-description-field">GPA:  </span>4.0</div>
-                    <div><span className="education-description-field">Accolades:  </span>Dean's Honors List 2021 and 2022</div>
+                    <div><span className="education-description-field">Accolades:  </span>Dean's Honors List 2021, 2022, and 2023</div>
                     <div><span className="education-description-field">Notable Courses:  </span>
                         Web Technologies, Database Management Systems, Operating Systmes, Theoretical Foundations of Software Engineering
                     </div>

@@ -16,6 +16,7 @@
 
 .education {
     width: 100%;
+    padding-bottom: 4rem;
 }
 .education > * {
     font-family: 'Montserrat', sans-serif;

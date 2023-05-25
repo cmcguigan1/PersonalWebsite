@@ -16,6 +16,9 @@
 }
 #footer > *:hover{
     cursor: pointer;
+    border-left: 0.3rem solid black;
+    border-bottom: 0.1rem solid black;
+    transition: border 0.3s;
 }
 
 .footer-logo-container {

@@ -26,7 +26,9 @@ export default function ExperienceSection(){
       date: "May 2022 - December 2022", 
       description: `Co-Lead Developer of Cobra, a web app for Bell's Contractor Management Team. 
       Lead the development of a Django web app used by Bell's internal contract management team 
-      to manage vendor contracts, contract SKUs, tracking contractor's access to Bell sites and more`,
+      to manage vendor contracts, contract SKUs, tracking contractor's access to Bell sites and more.
+      Worked full time from May to September and then stayed on part time until December while at school
+      to continue the development and handoff of the application`,
       link: ''
     }
   ]);
@@ -41,7 +43,17 @@ export default function ExperienceSection(){
       software development related services. As Team Lead, I was responsible
       for developing high level timelines, communicating with stakeholders,
       requirements elicitations and ensuring my team stayed on track 
-      to meet deadlines`         
+      to meet deadlines`,
+      link: 'https://london-bridges.vercel.app/team'
+    },
+    {
+      imgURL: '',
+      title: "Head of Development",
+      date: "Oct 2022 - April 2023",
+      description: `Head of software development for Western Engineering Tobogganing Team, 
+      a Western University engineering club. Includes developing and redesigning the club's 
+      website and managing a team of developers.`,
+      link: 'https://wetterisbetter.ca/'
     }
   ]);
 
