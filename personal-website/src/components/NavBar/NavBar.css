@@ -8,6 +8,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 #logo:hover{
     cursor: pointer;
