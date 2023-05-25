@@ -4,6 +4,7 @@ import './ExperienceSection.css';
 import RBC from '../../assests/images/RBC_icon.jpg';
 import WDSLogo from '../../assests/images/WDS.jpg';
 import Bell from '../../assests/images/Bell.png';
+import WETT from '../../assests/images/WETT.jpg';
 
 export default function ExperienceSection(){
   const [isToggled, setIsToggled] = useState(false);
@@ -47,7 +48,7 @@ export default function ExperienceSection(){
       link: 'https://london-bridges.vercel.app/team'
     },
     {
-      imgURL: '',
+      imgURL: WETT,
       title: "Head of Development",
       date: "Oct 2022 - April 2023",
       description: `Head of software development for Western Engineering Tobogganing Team, 
