@@ -7,9 +7,9 @@ export default function NavBar(){
         <div id="navbar">
             <div id="logo">Claire McGuigan</div>
             <div id="nav-options">
-                <span>Experience</span>
-                <span>Education</span>
-                <span>Projects</span>
+                <a href="#education-container">Education</a>
+                <a href='#experience-container'>Experience</a>
+                <a href="#projects-container">Projects</a>
             </div>
         </div>
     );

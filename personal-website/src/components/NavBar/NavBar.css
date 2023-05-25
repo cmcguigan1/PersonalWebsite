@@ -1,11 +1,13 @@
 #navbar{
     display: flex;
     justify-content: space-between;
+    padding: 2rem 1rem;
 }
 
 #logo{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
+    font-weight: bold;
 }
 #logo:hover{
     cursor: pointer;
@@ -16,4 +18,14 @@
     font-size: 2.5rem;
     padding: 0 1rem;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.25rem;
+}
+
+#nav-options > *:hover {
+    background-color: #72C2C7;
+    border-bottom: 0.25rem solid black;
+    transition: background-color, border 0.5s;
 }
