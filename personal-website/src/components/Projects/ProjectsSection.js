@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Project from './Project.js';
 import './ProjectsSection.css';
 import { projects } from '../../data/ProjectData.js';
@@ -11,7 +11,7 @@ export default function ProjectsSection(props){
             <div id='projects-list-container'>
                 { projects &&
                     projects.map((p) => {
-                        return <Project navigateToDescription={props.navigateToDescription} proj={p}/>
+                        return <Project navigateToDescription={props.navigateToDescription} key={p.id} proj={p}/>
                     })
                 }
             </div>

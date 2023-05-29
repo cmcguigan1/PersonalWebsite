@@ -1,5 +1,6 @@
 export const projects = [
     {
+        id: 1,
         name: 'MangoHealth',
         description: `At CalgaryHacks 2022 Hackathon, in a team of 5, developed a React Native 
         app that scans food item barcodes and uses the EDAMAM Food Database API to get its 
@@ -8,6 +9,7 @@ export const projects = [
         and Node.js server, and a React Native application front-end.`
     },
     {
+        id: 2,
         name: 'Co-Living',
         description: `In a team of 4, at SheHacks 6, 2021 Hackathon, developed an organizational 
         living website using JavaScript, HTML and CSS for roommates to keep track of shared 
@@ -15,6 +17,7 @@ export const projects = [
         roommates to customizable chores`
     },
     {
+        id: 3,
         name: 'Code4ACause',
         description: `In a team of 4 at eHacks 2022 Hackathon, developed a website using HTML, 
         CSS and JavaScript that connects young programmers looking to develop their skills with 

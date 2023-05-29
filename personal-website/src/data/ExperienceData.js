@@ -5,6 +5,7 @@ import WETT from '../assests/images/WETT.jpg';
 
 export const professional = [
     {
+        id: 1,
         imgURL: RBC, 
         title: "Developer, RBC Amplify", 
         date: "May 2023 - August 2023", 
@@ -17,6 +18,7 @@ export const professional = [
         link: ''
     },
     {
+        id: 2,
         imgURL: Bell, 
         title: "Access Network Engineering Student", 
         date: "May 2022 - December 2022", 
@@ -31,6 +33,7 @@ export const professional = [
 
 export const extraCurr = [
     {
+        id: 1,
         imgURL: WDSLogo, 
         title: "Developer Team Lead, Western Developers Society", 
         date: "Oct 2022 - April 2023", 
@@ -44,6 +47,7 @@ export const extraCurr = [
         link: 'https://london-bridges.vercel.app/team'
     },
     {
+        id: 2,
         imgURL: WETT,
         title: "Head of Development",
         date: "Oct 2022 - April 2023",

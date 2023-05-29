@@ -15,9 +15,9 @@ export default function ExperienceSection(props){
     <div id="experience-container">
       <div id="experience-container-title">Experience</div>
       <div id="exp-toggle">
-        <label class="switch">
+        <label className="switch">
           <input onClick={toggleExperience} type="checkbox"/>
-          <span class="slider round"></span>
+          <span className="slider round"></span>
         </label> 
         { !isToggled && <div id="experience-toggle-title">Professional</div> }  
         { isToggled && <div id="experience-toggle-title">Extra Curricular</div> }
@@ -25,12 +25,12 @@ export default function ExperienceSection(props){
       <div>
         { !isToggled && professional &&
           professional.map((e) => {
-            return <Experience navigateToDescription={props.navigateToDescription} exp={e}/>
+            return <Experience navigateToDescription={props.navigateToDescription} key={e.id} exp={e}/>
           })
         }
         { isToggled && extraCurr &&
           extraCurr.map((e) => {
-            return <Experience navigateToDescription={props.navigateToDescription} exp={e}/>
+            return <Experience navigateToDescription={props.navigateToDescription} key={e.id} exp={e}/>
           })
         }
       </div>
