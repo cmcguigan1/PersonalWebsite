@@ -1,22 +1,17 @@
 import './App.css';
 import './assests/css/fonts.css';
-import NavBar from './components/NavBar/NavBar';
-import AboutMe from './components/AboutMe/AboutMe';
-import Education from './components/Education/Education';
-import ExperienceSection from './components/Experience/ExperienceSection';
-import ProjectsSection from './components/Projects/ProjectsSection';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainPage from './components/MainPage';
+import Description from './components/Description/Description';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar></NavBar>
-      <AboutMe/>
-      <Education/>
-      <ExperienceSection/>
-      <ProjectsSection/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path = '/' exact element ={<MainPage/>}/>
+        <Route path = '/Description' exact element ={<Description/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

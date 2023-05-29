@@ -6,7 +6,7 @@ import WDSLogo from '../../assests/images/WDS.jpg';
 import Bell from '../../assests/images/Bell.png';
 import WETT from '../../assests/images/WETT.jpg';
 
-export default function ExperienceSection(){
+export default function ExperienceSection(props){
   const [isToggled, setIsToggled] = useState(false);
   const [professional, setProfessional] = useState([
     {
@@ -76,12 +76,12 @@ export default function ExperienceSection(){
       <div>
         { !isToggled && professional &&
           professional.map((e) => {
-            return <Experience exp={e}/>
+            return <Experience navigateToDescription={props.navigateToDescription} exp={e}/>
           })
         }
         { isToggled && extraCurr &&
           extraCurr.map((e) => {
-            return <Experience exp={e}/>
+            return <Experience navigateToDescription={props.navigateToDescription} exp={e}/>
           })
         }
       </div>

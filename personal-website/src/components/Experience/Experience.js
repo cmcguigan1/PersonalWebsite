@@ -3,7 +3,7 @@ import './Experience.css';
 
 export default function Experience(props){
     return (
-        <div className='experience'>
+        <div onClick={() => props.navigateToDescription(props.exp)} className='experience'>
             <img className="experience-img" src={props.exp.imgURL}/>
             <div className="experience-text">
                 <div className='experience-title'>{props.exp.title}</div>

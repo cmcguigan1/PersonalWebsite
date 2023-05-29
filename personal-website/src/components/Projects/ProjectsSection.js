@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Project from './Project.js';
 import './ProjectsSection.css';
 
-export default function ProjectsSection(){
+export default function ProjectsSection(props){
     const [projects, setProjects] = useState([
         {
             name: 'MangoHealth',
@@ -33,7 +33,7 @@ export default function ProjectsSection(){
             <div id='projects-list-container'>
                 { projects &&
                     projects.map((p) => {
-                        return <Project proj={p}/>
+                        return <Project navigateToDescription={props.navigateToDescription} proj={p}/>
                     })
                 }
             </div>
