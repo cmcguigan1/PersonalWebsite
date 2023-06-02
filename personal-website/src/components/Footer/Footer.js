@@ -16,6 +16,9 @@ export default function Footer(){
             <div className='footer-logo-container'>
                 <a href="https://github.com/cmcguigan1" target="_blank"><img className="footer-git-img" src={github}/></a>
             </div>
+            <div className='footer-logo-container'>
+                <span className="material-symbols-outlined">resume</span>
+            </div>
         </div>
     );
 }

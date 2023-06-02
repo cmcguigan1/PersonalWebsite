@@ -1,0 +1,40 @@
+#description {
+    margin-top: 6.4rem;
+}
+
+#description-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#description-title-container > * {
+    padding: 0.2rem 0;
+}
+
+#description-title {
+    font-size: 1.5rem;
+}
+
+#description-gray-background-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal-line {
+    width: 40rem;
+    border-bottom: 1px solid black;
+}
+.gray-background {
+    background-color: rgb(234, 234, 234);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 40%;
+}
+.heading-d1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 23%;
+}
