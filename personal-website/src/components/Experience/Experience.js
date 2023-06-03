@@ -8,7 +8,6 @@ export default function Experience(props){
             <div className="experience-text">
                 <div className='experience-title'>{props.exp.title}</div>
                 <div className="experience-description">{props.exp.description}</div>
-                { props.exp.link && <div>Check out more about the program <a href={props.exp.link}>here!</a></div> }
             </div>
         </div>
     );
