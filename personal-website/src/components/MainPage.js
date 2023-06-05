@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './NavBar/NavBar';
 import AboutMe from './AboutMe/AboutMe';
 import Education from './Education/Education';
@@ -9,6 +9,10 @@ import { useLocation, useNavigate} from 'react-router-dom';
 
 export default function MainPage(){
     const nav = useNavigate();
+
+    useEffect(() => {
+        document.title = 'Claire McGuigan';
+    },[]);
 
     const navigateToDescription = (data) => {
         nav('./Description',{state: {data: data}} )

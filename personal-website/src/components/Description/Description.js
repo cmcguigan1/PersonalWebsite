@@ -9,7 +9,7 @@ export default function Description(props){
     const { data } = location.state;
 
     useEffect(() => {
-        console.log(data);
+        document.title = 'Claire McGuigan';
     });
 
     return (
