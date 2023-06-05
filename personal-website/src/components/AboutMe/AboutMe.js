@@ -20,7 +20,7 @@ export default function AboutMe(){
                     of Machine Learning and AI
                     <br></br>
                     <br></br>
-                    When I'm not beind a computer I like to paint, weightlift, read and cook! 
+                    When I'm not beind a computer I like to paint, go to the gym, read and cook! 
                 </div>
             </div>
         </div>
