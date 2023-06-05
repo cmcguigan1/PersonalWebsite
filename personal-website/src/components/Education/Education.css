@@ -1,0 +1,44 @@
+#education-container{
+    background-color: #FAE470;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+#education-container-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 0px 4px pink;
+    position: relative;
+    right: 1rem;
+    bottom: 2rem;
+}
+
+.education {
+    width: 100%;
+    padding-bottom: 4rem;
+}
+.education > * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education-topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.education-name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.education-subheading {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+.education-description {
+    padding: 0 2rem;
+}
+.education-description-field {
+    font-weight: bold;
+}

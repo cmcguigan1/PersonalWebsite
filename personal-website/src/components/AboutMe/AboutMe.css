@@ -1,0 +1,39 @@
+#aboutme-container {
+    margin: 6.4rem 0 5rem 0;
+    background-color: pink;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linkedin-photo {
+    width: 25%;
+    border-radius: 50% 25%;
+}
+
+#aboutme-content {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutme-content > * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#aboutme-intro {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#aboutme-descr {
+    font-size: 1.2rem;;
+}
+
+.aboutme-emp {
+    text-shadow: -2px 2px #72C2C7;
+}
