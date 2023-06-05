@@ -10,6 +10,13 @@ import Teamify9 from '../assests/images/TeamifyPhotos/Teamify9.png';
 import Teamify10 from '../assests/images/TeamifyPhotos/Teamify10.png';
 import Teamify11 from '../assests/images/TeamifyPhotos/Teamify11.png';
 
+import CoLiving1 from '../assests/images/CoLiving/CoLiving1.png';
+import CoLiving2 from '../assests/images/CoLiving/CoLiving2.png';
+import CoLiving3 from '../assests/images/CoLiving/CoLiving3.png';
+import CoLiving4 from '../assests/images/CoLiving/CoLiving4.png';
+import CoLiving5 from '../assests/images/CoLiving/CoLiving5.png';
+import CoLiving6 from '../assests/images/CoLiving/CoLiving6.png';
+
 export const projects = [
     {
         id: 1,
@@ -61,16 +68,18 @@ export const projects = [
         date: "January 2022",
         company: 'SheHacks Hackathon',
         companyDescription: `Canada's biggest all-female and non-binary 36-hour hackathon`,
-        description: `In a team of 4, at SheHacks 6, 2021 Hackathon, developed an organizational 
-        living website using JavaScript, HTML and CSS for roommates to keep track of shared 
+        description: `At SheHacks 6 2021 Hackathon, developed an organizational 
+        living website for roommates to keep track of shared 
         expenses, joint and individual grocery lists and a chore chart that randomly assigns
         roommates to customizable chores`,
         skills: 'Javascript, HTML, CSS',
-        link: '',
+        link: 'https://github.com/cmcguigan1/CoLiving-SheHacks2022',
         keyPoints: [
-            ``,
+            `Worked in a team with 3 other developers`,
+            `The first hackthon I fully competed in`,
+            `Pitched and presented our project to a pannel of judges`
         ],
-        images: []
+        images: [CoLiving1, CoLiving2, CoLiving3, CoLiving4, CoLiving5, CoLiving6]
     },
     {
         id: 4,
@@ -80,13 +89,15 @@ export const projects = [
         company: 'eHacks Hackathon',
         companyDescription: `24-hr Hackathon where teams are composed of 2 technical and 2 business memebers to 
         build a solution to a business problem`,
-        description: `In a team of 4 at eHacks 2022 Hackathon, developed a website using HTML, 
-        CSS and JavaScript that connects young programmers looking to develop their skills with 
-        non-profits looking for help with website building, app creation…etc.`,
+        description: `At eHacks 2022 Hackathon, developed a website that connects young programmers looking to 
+        develop their skills with non-profits looking for help with website building, app creation or other 
+        software services`,
         skills: 'Javascript, HTML, CSS',
         link: '',
         keyPoints: [
-            ``,
+            `Worked in a cross-functional team of 4 with 2 non-technical memebers and 1 other technical member`,
+            `My first hackathon that had a business pitch as well as a technical pitch`,
+            `Pitched and presented our concept, along with the business plan of how we would fund the project, as well as our technical solution`
         ],
         images: []
     },

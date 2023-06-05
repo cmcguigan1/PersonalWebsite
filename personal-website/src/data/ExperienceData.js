@@ -75,12 +75,14 @@ export const extraCurr = [
         requirements elicitations and ensuring my team stayed on track 
         to meet deadlines`,
         skills: 'Project Management, Agile Workflow, Leadership, Jira, High Level Timelines, Communication',
-        link: 'https://london-bridges.vercel.app/team',
+        link: 'https://london-bridges.vercel.app/home',
         keyPoints: [
             `Co-lead a team of 8 developers`,
             `Communicated with stakeholders`,
             `Produced high-level timelines`,
-            `Tracked and monitored developers progress to meet deadlines`
+            `Tracked and monitored developers progress to meet deadlines`,
+            `NOTE: the site has yet to be populated with the club's information. The link will take 
+            you to the site that has temporary placeholder content`
         ],
         images: []
     },
@@ -99,7 +101,8 @@ export const extraCurr = [
         skills: 'Leadership, UI/UX Design',
         link: 'https://wetterisbetter.ca/',
         keyPoints: [
-            ``,
+            `Western Engineering Toboganing Team (WETT) is one of Western's largest engineering clubs `,
+            `Focused on UX/UI design of the website, and maintaining the site`
         ],
         images: []
     }
