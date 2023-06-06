@@ -29,16 +29,23 @@
     padding: 1rem 2rem;
 }
 .education-name {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 2.2rem;
+    font-weight: 600;
 }
 .education-subheading {
     padding: 0 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-style: italic;
 }
 .education-description {
     padding: 0 2rem;
 }
+.education-description > * {
+    margin: 0.3rem 0;
+}
+
 .education-description-field {
     font-weight: bold;
 }
