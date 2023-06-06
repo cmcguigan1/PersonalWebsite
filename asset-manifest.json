@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cacd0c03.css",
-    "main.js": "/static/js/main.aedc9802.js",
+    "main.js": "/static/js/main.e1219979.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/LinkedIn Photo.png": "/static/media/LinkedIn Photo.5e099e2d5939317809e6.png",
     "static/media/CoLiving4.png": "/static/media/CoLiving4.4d3cc150d998a03280ec.png",
@@ -21,17 +21,20 @@
     "static/media/github.png": "/static/media/github.bc45ee99ee31457ba80a.png",
     "static/media/Teamify11.png": "/static/media/Teamify11.ab705c8fc38d7fb91097.png",
     "static/media/Teamify5.png": "/static/media/Teamify5.102c3811ae0275d37e52.png",
+    "static/media/MCGLawLogo.png": "/static/media/MCGLawLogo.0e944f10f25d4cbf2809.png",
     "static/media/Teamify4.png": "/static/media/Teamify4.42ef636754f4867cbe62.png",
     "static/media/Teamify8.png": "/static/media/Teamify8.79ab394ec2fcc08e495e.png",
-    "static/media/Bell.png": "/static/media/Bell.ca6589ab43aee334c49f.png",
+    "static/media/WesternOWeek.png": "/static/media/WesternOWeek.95f74d0f5fed0fa29c6d.png",
+    "static/media/BellLogo.png": "/static/media/BellLogo.36d702d63431ce79472c.png",
+    "static/media/WesternLogo.png": "/static/media/WesternLogo.2684256b54cfa28ab735.png",
     "static/media/linkedIn3.png": "/static/media/linkedIn3.6a567d5cc0530c8ae20b.png",
     "index.html": "/index.html",
     "main.cacd0c03.css.map": "/static/css/main.cacd0c03.css.map",
-    "main.aedc9802.js.map": "/static/js/main.aedc9802.js.map",
+    "main.e1219979.js.map": "/static/js/main.e1219979.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cacd0c03.css",
-    "static/js/main.aedc9802.js"
+    "static/js/main.e1219979.js"
   ]
 }
