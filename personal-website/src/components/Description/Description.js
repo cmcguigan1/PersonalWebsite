@@ -42,11 +42,27 @@ export default function Description(props){
                         <div>{data.date}</div>
                     </div>
                     <br></br>
-                    <div>
-                        <div className='heading-d1'>Technologies</div>
-                        <div>{data.skills}</div>
-                    </div>
-                    <br></br>
+                    { data.location &&
+                        <div>
+                            <div className='heading-d1'>Location</div>
+                            <div>{data.location}</div>
+                            <br></br>
+                        </div>
+                    }
+                    { data.technologies &&
+                        <div>
+                            <div className='heading-d1'>Technologies</div>
+                            <div>{data.technologies}</div>
+                            <br></br>
+                        </div>
+                    }
+                    { data.skills &&
+                        <div>
+                            <div className='heading-d1'>Skills</div>
+                            <div>{data.skills}</div>
+                            <br></br>
+                        </div>
+                    }
                     { data.link && 
                         <div>
                             <a className='link-to-product' target='_blank' href={data.link}>Link to Project</a>
