@@ -10,6 +10,7 @@ export default function Description(props){
 
     useEffect(() => {
         document.title = 'Claire McGuigan';
+        window.scrollTo(0, 0);
     });
 
     return (
