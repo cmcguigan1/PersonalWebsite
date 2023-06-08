@@ -31,9 +31,33 @@
 }
 
 #aboutme-descr {
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
 }
 
 .aboutme-emp {
     text-shadow: -2px 2px #72C2C7;
+}
+
+@media only screen and (max-width: 840px) {
+    #aboutme-content {
+        padding: 0 2rem;
+    }
+    #aboutme-intro {
+        font-size: 1.5rem;
+    }
+    #aboutme-descr {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #aboutme-content {
+        padding: 0 1rem;
+    }
+    #aboutme-intro {
+        font-size: 1rem;
+    }
+    #aboutme-descr {
+        font-size: 0.7rem;
+    }
 }
