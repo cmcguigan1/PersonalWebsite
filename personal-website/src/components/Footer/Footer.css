@@ -36,3 +36,35 @@
 .footer-git-img {
     width: 3rem;
 }
+
+@media only screen and (max-width: 840px) {
+    #footer > * {
+        padding: 0.75rem;
+        margin: 1rem;
+    }
+    .material-symbols-outlined {
+        font-size: 2.75rem !important;
+    }
+    .footer-img {
+        width: 2.75rem;
+    }
+    .footer-git-img {
+        width: 2.75rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #footer > * {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+    .material-symbols-outlined {
+        font-size: 2.5rem !important;
+    }
+    .footer-img {
+        width: 2.5rem;
+    }
+    .footer-git-img {
+        width: 2.5rem;
+    }
+}

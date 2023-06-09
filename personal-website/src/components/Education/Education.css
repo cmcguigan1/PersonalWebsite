@@ -49,3 +49,15 @@
 .education-description-field {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 840px) {
+    .education-name {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .education-name {
+        font-size: 1.5rem;
+    }
+}
