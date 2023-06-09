@@ -24,14 +24,14 @@ export default function Description(props){
             <div id='description-gray-background-container'>
                 <div className='gray-background'>
                     <div className='heading-d1'>Description</div>
-                    <div>{data.description}</div>
+                    <div className='description-main-text'>{data.description}</div>
                     <br></br>
                     <div className='heading-d1'>Key Highlights</div>
                     <ul>
                         {
                             data.keyPoints.map((point) => {
                                 return (
-                                    <li>{point}</li>
+                                    <li className='description-main-text'>{point}</li>
                                 )
                             })
                         }
@@ -40,27 +40,27 @@ export default function Description(props){
                 <div className='gray-background'>
                     <div>
                         <div className='heading-d1'>Date</div>
-                        <div>{data.date}</div>
+                        <div className='description-main-text'>{data.date}</div>
                     </div>
                     <br></br>
                     { data.location &&
                         <div>
                             <div className='heading-d1'>Location</div>
-                            <div>{data.location}</div>
+                            <div className='description-main-text'>{data.location}</div>
                             <br></br>
                         </div>
                     }
                     { data.technologies &&
                         <div>
                             <div className='heading-d1'>Technologies</div>
-                            <div>{data.technologies}</div>
+                            <div className='description-main-text'>{data.technologies}</div>
                             <br></br>
                         </div>
                     }
                     { data.skills &&
                         <div>
                             <div className='heading-d1'>Skills</div>
-                            <div>{data.skills}</div>
+                            <div className='description-main-text'>{data.skills}</div>
                             <br></br>
                         </div>
                     }
