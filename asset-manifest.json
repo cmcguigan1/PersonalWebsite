@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa328c26.css",
-    "main.js": "/static/js/main.3fc03c85.js",
+    "main.css": "/static/css/main.6930d22f.css",
+    "main.js": "/static/js/main.57c89f23.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/LinkedIn Photo.png": "/static/media/LinkedIn Photo.5e099e2d5939317809e6.png",
     "static/media/CoLiving4.png": "/static/media/CoLiving4.4d3cc150d998a03280ec.png",
@@ -48,12 +48,12 @@
     "static/media/WesternLogo.png": "/static/media/WesternLogo.2684256b54cfa28ab735.png",
     "static/media/linkedIn3.png": "/static/media/linkedIn3.6a567d5cc0530c8ae20b.png",
     "index.html": "/index.html",
-    "main.fa328c26.css.map": "/static/css/main.fa328c26.css.map",
-    "main.3fc03c85.js.map": "/static/js/main.3fc03c85.js.map",
+    "main.6930d22f.css.map": "/static/css/main.6930d22f.css.map",
+    "main.57c89f23.js.map": "/static/js/main.57c89f23.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa328c26.css",
-    "static/js/main.3fc03c85.js"
+    "static/css/main.6930d22f.css",
+    "static/js/main.57c89f23.js"
   ]
 }
