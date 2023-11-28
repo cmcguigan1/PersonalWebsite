@@ -11,6 +11,36 @@ export const professional = [
         id: 1,
         type: 'work',
         logoImgURL: RBC, 
+        title: "Machine Learning Platform Developer, RBC", 
+        date: "September 2023 - December 2023",
+        location: 'Calgary, AB',
+        company: 'Royal Bank of Canada',
+        companyDescription: `A Canadian multinational financial services company and the largest 
+        bank in Canada by market capitalization`,
+        description: `Worked on RBC Brain's on-premises MLOps platform team to develop their chargeback 
+        infrastructure and to help App Code owners understand and limit their resource wastage on the platform. 
+        Using big data tools like Spark and Hadoop, I automated the processing of the OCP pod data 
+        to calculate the total cost for each App Code on a monthly basis. Used similar tools to calculate the 
+        actual resource usage of our users on the platform, and present those as insights to our App Code owners 
+        so they can in turn limit their resource wastage on the platform. 
+        My term project involved planning my tasks and synching them with the team's bi-weekly sprints, and 
+        collaborating with other team members to ensure high quality work.`,
+        skills: 'Collaboration, Agile Sprint Planning',
+        technologies: 'Spark, Jupyter Notebooks, Airflow, SQL',
+        link: '',
+        keyPoints: [
+            `Worked with big data tools like Spark and Hadoop to automate tasks for data pulls, and processing of chargeback data from OCP`,
+            `Developed the chargeback infrastructure for the MLOps team which was a key factor of success for their next quarter`,
+            `Used similar tools to calculate the actual resource usage of users on the platform to limit resource wastage`,
+            `Planed my own sprints and synched them with the team's agile bi-weekly sprints`,
+            `Placed top 5 out of 17 teams in the co-ops case competition with 4 other co-op students`
+        ],
+        images: []
+    },
+    {
+        id: 2,
+        type: 'work',
+        logoImgURL: RBC, 
         title: "Developer, RBC Amplify", 
         date: "May 2023 - August 2023",
         location: 'Toronto, ON',
@@ -19,24 +49,27 @@ export const professional = [
         bank in Canada by market capitalization`,
         description: `RBC's Amplify program is a summer internship 
         where students are put into groups of 4 and given challenge 
-        prompts to solve over the summer. Together, my team and I went
-        through all the phases of the software development process, 
+        prompts to solve over the summer. My team was challenged with
+        innovating the Avion Rewards shopping experience and differentiating
+        our rewards program from others out there today. Together, my team and I went
+        through all the phases of the software development process; 
         from breaking down the problem statement, researching the problem,
-        brainstoring potential solutions, designing, and implementing.`,
-        skills: 'Design Thinking',
-        technologies: '',
+        brainstoring potential solutions, designing, implementing, and finally pitching our solution
+        at the end of the summer.`,
+        skills: 'Design Thinking, Product Ideation, Pitching and Presenting, Leadership',
+        technologies: 'React, TailwindCSS, MongoDB, OpenShift',
         link: 'https://www.youtube.com/watch?v=-DMvTIxqB-o',
         keyPoints: [
             `Worked in a cross-functional team of 4`,
+            `Implement our chosen solution that projected $87MM in revenue and 17% increase in new users over 5 years`,
             `Completed research to refine, define the scope, and reframe our challenge`,
             `Continously present progress, roadblocks, and opportunities to relevant stakeholder`,
-            `Implement our chosen solution`,
             `Pitch our project at the end of the summer at the AmpExpo`
         ],
         images: []
     },
     {
-        id: 2,
+        id: 3,
         type: 'work',
         logoImgURL: Bell, 
         title: "Access Network Engineering Student", 
@@ -63,7 +96,7 @@ export const professional = [
         images: []
     },
     {
-        id: 3,
+        id: 4,
         type: 'work',
         logoImgURL: MCGLaw, 
         title: "Summer Student", 
