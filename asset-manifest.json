@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.6930d22f.css",
-    "main.js": "/static/js/main.4e07b2ad.js",
+    "main.js": "/static/js/main.06243050.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/LinkedIn Photo.png": "/static/media/LinkedIn Photo.5e099e2d5939317809e6.png",
     "static/media/CoLiving4.png": "/static/media/CoLiving4.4d3cc150d998a03280ec.png",
+    "static/media/headshot.png": "/static/media/headshot.40d15bceb4be2d57bee3.png",
     "static/media/COMT24.png": "/static/media/COMT24.a2c27067da2a81e5bc00.png",
     "static/media/COMT12.png": "/static/media/COMT12.62b7ad0d6fb8f046cf32.png",
     "static/media/COMT11.png": "/static/media/COMT11.0846905a1d3b9c5629ce.png",
@@ -47,13 +48,14 @@
     "static/media/BellLogo.png": "/static/media/BellLogo.36d702d63431ce79472c.png",
     "static/media/WesternLogo.png": "/static/media/WesternLogo.2684256b54cfa28ab735.png",
     "static/media/linkedIn3.png": "/static/media/linkedIn3.6a567d5cc0530c8ae20b.png",
+    "static/media/Amazon.png": "/static/media/Amazon.51354eb8f1f38ff65a11.png",
     "index.html": "/index.html",
     "main.6930d22f.css.map": "/static/css/main.6930d22f.css.map",
-    "main.4e07b2ad.js.map": "/static/js/main.4e07b2ad.js.map",
+    "main.06243050.js.map": "/static/js/main.06243050.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6930d22f.css",
-    "static/js/main.4e07b2ad.js"
+    "static/js/main.06243050.js"
   ]
 }
