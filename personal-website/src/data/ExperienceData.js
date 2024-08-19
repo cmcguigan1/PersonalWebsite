@@ -5,10 +5,60 @@ import WETT from '../assests/images/WETT.jpg';
 import WesternOrientation from '../assests/images/WesternOWeek.png';
 import WesternUniversity from '../assests/images/WesternLogo.png';
 import MCGLaw from '../assests/images/MCGLawLogo.png';
+import Amazon from '../assests/images/Amazon.png';
 
 export const professional = [
     {
         id: 1,
+        type: 'work',
+        logoImgURL: Amazon, 
+        title: "Software Development Engineer Intern, Amazon", 
+        date: "May 2024 - August 2024",
+        location: 'Toronto, ON',
+        company: 'Amazon',
+        companyDescription: `An American multinational technology company, engaged in e-commerce, 
+        cloud computing, online advertising, digital streaming, and artificial intelligence`,
+        description: `Joined the Labour Planning Development Experience team in the Fulfillment Technology
+        organization for the summer. Worked on a project to visualzie big data including developing the ingestion,
+        the storage solution to consume the data.`,
+        skills: 'Deep Diving, Dealing with ambiguity',
+        technologies: 'QuickSight, AWS Lambda, AWS SQS, Amazon S3, Amazon Athena, AWS Glue, AWS IAM',
+        link: '',
+        keyPoints: [
+            `Deep dived problem statement and potential solutions, tools, and ressources`,
+            `Pivoted quickly and made quick decisions to meet short dealines`,
+            `Presented researched and developed a solution that solved my problem statement`,
+            `Pitched and presented solutions and details to technical and business stakeholders`
+        ],
+        images: []
+    },
+    {
+        id: 2,
+        type: 'work',
+        logoImgURL: RBC, 
+        title: "Full Stack Software Developer, RBC", 
+        date: "January 2024 - April 2024",
+        location: 'Calgary, AB - Remote',
+        company: 'Royal Bank of Canada',
+        companyDescription: `A Canadian multinational financial services company and the largest 
+        bank in Canada by market capitalization`,
+        description: `Joined RBC's Tech Self-Service Conversational AI Chatbot team for the Winter co-op
+        term. Worked on building out new flows, adding new features and bug fixes throuhgout my term.
+        Completed a topic modeling project to enhance the team's chat conversation dashboard that 
+        helps the team identify topics in TSS conversations for new potential flows in Tia.`,
+        skills: 'Agile Sprint Development',
+        technologies: 'React, NodeJS, DialogFlow, Jupyter Notebooks',
+        link: '',
+        keyPoints: [
+            `Worked on enhancing and developing new flows`,
+            `Implemented new features that are currently in production`,
+            `Completed a Topic Modeling project that reaserched how the team could use generative AI 
+            with LDA and BERTopic to enhance their existing TSS chat conversation dashbaord`
+        ],
+        images: []
+    },
+    {
+        id: 3,
         type: 'work',
         logoImgURL: RBC, 
         title: "Machine Learning Platform Developer, RBC", 
@@ -38,7 +88,7 @@ export const professional = [
         images: []
     },
     {
-        id: 2,
+        id: 4,
         type: 'work',
         logoImgURL: RBC, 
         title: "Developer, RBC Amplify", 
@@ -69,7 +119,7 @@ export const professional = [
         images: []
     },
     {
-        id: 3,
+        id: 5,
         type: 'work',
         logoImgURL: Bell, 
         title: "Access Network Engineering Student", 
@@ -96,7 +146,7 @@ export const professional = [
         images: []
     },
     {
-        id: 4,
+        id: 6,
         type: 'work',
         logoImgURL: MCGLaw, 
         title: "Summer Student", 
@@ -120,6 +170,29 @@ export const professional = [
 export const extraCurr = [
     {
         id: 1,
+        type: 'club',
+        logoImgURL: WesternOrientation, 
+        title: "Western Engineering Orientation Team Programming Assistant", 
+        date: "January 2024 - April 2025", 
+        location: 'London, ON',
+        company: 'Western University',
+        companyDescription: `Western University, located in London, Onatrio`,
+        description: `Leadership role on the Western Engineering Orientation Team. In charge of leading and 
+        managing 65 Engineering Student Leaders, and planning Orientation week events such as Faculty Day 
+        for the engineering faculty.`,
+        skills: 'Leadership, Management, Communication, Mentorship, Organization',
+        technologies: '',
+        link: '',
+        keyPoints: [
+            `One of 4 Leaders Managing 65 Orientation Student Leaders`,
+            `Managing engineering orientation student leaders who are responsible for first year 
+            engineering students`,
+            `Organizing orientation week events`
+        ],
+        images: []
+    },
+    {
+        id: 2,
         type: 'club',
         logoImgURL: WDSLogo, 
         title: "Developer Team Lead", 
@@ -149,7 +222,7 @@ export const extraCurr = [
         images: []
     },
     {
-        id: 2,
+        id: 3,
         type: 'club',
         logoImgURL: WETT,
         title: "Head of Development",
@@ -171,7 +244,7 @@ export const extraCurr = [
         images: []
     },
     {
-        id: 3,
+        id: 4,
         type: 'club',
         logoImgURL: WesternOrientation,
         title: "Engineering Student Orientation Leader",
@@ -196,7 +269,7 @@ export const extraCurr = [
         images: []
     },
     {
-        id: 4,
+        id: 5,
         type: 'club',
         logoImgURL: WesternUniversity,
         title: "Mentor",

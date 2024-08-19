@@ -1,14 +1,15 @@
 import React from 'react';
 import './AboutMe.css';
 import LinkedInPhoto from '../../assests/images/LinkedIn Photo.png';
+import Headshot from '../../assests/images/headshot.png';
 
 export default function AboutMe(){
     return (
         <div id="aboutme-container">
-            <img id="linkedin-photo" src={LinkedInPhoto}/>
+            <img id="linkedin-photo" src={Headshot}/>
             <div id="aboutme-content">
                 <div id="aboutme-intro">Hi I'm <span className="aboutme-emp">Claire</span> and welcome to my personal website!</div>
-                <div id="aboutme-descr">A bit about me: I'm a 3rd year software engineering student who is 
+                <div id="aboutme-descr">A bit about me: I'm a 5th year software engineering student who is 
                     passionate about technology and innovation. What drew me into the world 
                     of software development was the endless learning opportunities
                     it offered. I've always been the type of person who's loved school
@@ -20,7 +21,7 @@ export default function AboutMe(){
                     of Machine Learning and AI
                     <br></br>
                     <br></br>
-                    When I'm not beind a computer I like to paint, go to the gym, read and cook! 
+                    When I'm not beind a computer I like to paint, go to the gym, read and bake! 
                 </div>
             </div>
         </div>
